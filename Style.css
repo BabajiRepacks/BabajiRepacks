@@ -29,11 +29,11 @@ li a:hover {
   }
 
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .r{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s;
 }
 .r:hover{
@@ -41,10 +41,15 @@ h1{
     background-color: #111;
 }
 h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  
+    border-radius: 50px;
 }
+h1{
 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 img{
     align-content: center;
 }
@@ -55,6 +60,7 @@ a{
 }
 a:hover{
     color: cornflowerblue;
+    background-color: white;
 }
 
 .center {
@@ -72,3 +78,44 @@ a:hover{
     width: 300px;
     height: auto;
   }
+
+  .Cont{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Cont:hover{
+    background-color: rgba(201, 255, 255, 0.692);
+    color: rgb(0, 0, 0);
+    
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form{
+    size: 1000px;
+    font-size: 10px;
+  }
+.frm{
+  background-color: #111;
+  color: white;
+  transition: 0.5s;
+  font-size: 20px;
+  border-bottom-style: dashed;
+  border-bottom-width: 3px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.frm:hover{
+  background-color: rgba(71, 189, 243, 0.856);
+  color: white;
+  border-color: orange;
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+}
+
